@@ -21,6 +21,10 @@ qrInput.addEventListener("keyup", () => {
     }
 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8b4a867 (Optimisation on code)
 /*
 var red = document.getElementById('Red');
 var blue = document.getElementById('Blue');
@@ -87,4 +91,23 @@ function yellow() {
 
 function black() {
     document.body.classList.toggle("blacktheme");
+<<<<<<< HEAD
+=======
+=======
+
+
+const root = document.querySelector(":root"),
+    inputs = document.querySelectorAll("input[name='theme']")
+
+for (const input of inputs) {
+    input.onchange = e => {
+        root.style.setProperty("--theme-color", `var(--${e.target.value})`)
+    }
+}
+
+
+for (const input of inputs) {
+    input.style.backgroundColor = `rgba(var(--${e.target.value}),1)`
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&display=swap');
 :root {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8b4a867 (Optimisation on code)
     --primary-color: linear-gradient(160deg, rgba(0, 147, 233, 1) 0%, rgba(128, 208, 199, 1) 100%);
     --secondary-color: #cecece;
     --hover: #fff;
@@ -45,6 +49,18 @@
     --hover: #fff;
     --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
     --border: #111111;
+<<<<<<< HEAD
+=======
+=======
+    --red: 229, 57, 53;
+    --blue: 30, 136, 229;
+    --orange: 251, 140, 0;
+    --green: 67, 160, 71;
+    --yellow: 253, 216, 53;
+    --black: 10, 10, 10;
+    --theme-color: var(--red)
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
 }
 
 * {
@@ -59,7 +75,15 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+<<<<<<< HEAD
     background: var(--primary-color);
+=======
+<<<<<<< HEAD
+    background: var(--primary-color);
+=======
+    background: rgba(var(--theme-color), 1);
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
 }
 
 .wrapper {
@@ -103,7 +127,15 @@ button) {
 .form input {
     font-size: 18px;
     padding: 0 17px;
+<<<<<<< HEAD
     border: 2px solid var(--border);
+=======
+<<<<<<< HEAD
+    border: 2px solid var(--border);
+=======
+    border: 2px solid rgba(var(--theme-color), 1);
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
 }
 
 .form button {
@@ -111,7 +143,15 @@ button) {
     cursor: pointer;
     margin-top: 20px;
     font-size: 17px;
+<<<<<<< HEAD
     background: var(--primary-color);
+=======
+<<<<<<< HEAD
+    background: var(--primary-color);
+=======
+    background: rgba(var(--theme-color), 1);
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
 }
 
 .wrapper .qrcode {
@@ -120,7 +160,15 @@ button) {
     pointer-events: none;
     padding: 33px 0;
     align-items: center;
+<<<<<<< HEAD
     border: 2px solid var(--border);
+=======
+<<<<<<< HEAD
+    border: 2px solid var(--border);
+=======
+    border: 2px solid rgba(var(--theme-color), 1);
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
     border-radius: 7px;
     justify-content: center;
 }
@@ -135,6 +183,10 @@ button) {
     float: right;
     position: absolute;
     margin: 10px 10px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8b4a867 (Optimisation on code)
     top: 1%;
     right: 2%;
 }
@@ -189,4 +241,72 @@ ul {
 
 #Black {
     background: #000000;
+<<<<<<< HEAD
+=======
+=======
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    top: 1%;
+    right: 2%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+input[type='radio'] {
+    margin: 0 10px;
+}
+
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -5px;
+    left: -5px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[value='red']:after {
+    background: rgba(var(--red), 1);
+}
+
+input[value='black']:after {
+    background: rgba(var(--black), 1);
+}
+
+input[value='blue']:after {
+    background: rgba(var(--blue), 1);
+}
+
+input[value='orange']:after {
+    background: rgba(var(--orange), 1);
+}
+
+input[value='green']:after {
+    background: rgba(var(--green), 1);
+}
+
+input[value='yellow']:after {
+    background: rgba(var(--yellow), 1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #eeeeee;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(var(--theme-color), 1);
+    ;
+>>>>>>> 9aecdb8 (Optimisation on code)
+>>>>>>> 8b4a867 (Optimisation on code)
 }

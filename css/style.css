@@ -1,57 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&display=swap');
 :root {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 8b4a867 (Optimisation on code)
-    --primary-color: linear-gradient(160deg, rgba(0, 147, 233, 1) 0%, rgba(128, 208, 199, 1) 100%);
-    --secondary-color: #cecece;
-    --hover: #fff;
-    --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
-    --border: #cafef8;
-}
-
-.bluetheme {
-    --primary-color: linear-gradient(160deg, rgba(0, 147, 233, 1) 0%, rgba(128, 208, 199, 1) 100%);
-    --secondary-color: #cecece;
-    --hover: #fff;
-    --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
-    --border: #a3fff4;
-}
-
-.redtheme {
-    --primary-color: linear-gradient(160deg, rgb(233, 54, 0) 0%, rgb(208, 128, 128) 100%);
-    --secondary-color: #cecece;
-    --hover: #fff;
-    --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
-    --border: #fc9696;
-}
-
-.greentheme {
-    --primary-color: linear-gradient(160deg, rgb(0, 233, 105) 0%, rgb(128, 208, 155) 100%);
-    --secondary-color: #cecece;
-    --hover: #fff;
-    --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
-    --border: #96ff92;
-}
-
-.yellowtheme {
-    --primary-color: linear-gradient(160deg, rgb(229, 233, 0) 0%, rgb(208, 207, 128) 100%);
-    --secondary-color: #cecece;
-    --hover: #fff;
-    --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
-    --border: #eeff8f;
-}
-
-.blacktheme {
-    --primary-color: linear-gradient(160deg, rgb(10, 2, 0) 0%, rgb(44, 44, 44) 100%);
-    --secondary-color: #cecece;
-    --hover: #fff;
-    --backgroundlist: linear-gradient(160deg, rgba(252, 252, 252, 0.8) 0%, rgba(199, 236, 232, 0.8) 100%);
-    --border: #111111;
-<<<<<<< HEAD
-=======
-=======
     --red: 229, 57, 53;
     --blue: 30, 136, 229;
     --orange: 251, 140, 0;
@@ -59,8 +7,6 @@
     --yellow: 253, 216, 53;
     --black: 10, 10, 10;
     --theme-color: var(--red)
->>>>>>> 9aecdb8 (Optimisation on code)
->>>>>>> 8b4a867 (Optimisation on code)
 }
 
 * {
@@ -75,15 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-<<<<<<< HEAD
-    background: var(--primary-color);
-=======
-<<<<<<< HEAD
-    background: var(--primary-color);
-=======
     background: rgba(var(--theme-color), 1);
->>>>>>> 9aecdb8 (Optimisation on code)
->>>>>>> 8b4a867 (Optimisation on code)
 }
 
 .wrapper {
@@ -127,15 +65,7 @@ button) {
 .form input {
     font-size: 18px;
     padding: 0 17px;
-<<<<<<< HEAD
-    border: 2px solid var(--border);
-=======
-<<<<<<< HEAD
-    border: 2px solid var(--border);
-=======
     border: 2px solid rgba(var(--theme-color), 1);
->>>>>>> 9aecdb8 (Optimisation on code)
->>>>>>> 8b4a867 (Optimisation on code)
 }
 
 .form button {
@@ -143,15 +73,7 @@ button) {
     cursor: pointer;
     margin-top: 20px;
     font-size: 17px;
-<<<<<<< HEAD
-    background: var(--primary-color);
-=======
-<<<<<<< HEAD
-    background: var(--primary-color);
-=======
     background: rgba(var(--theme-color), 1);
->>>>>>> 9aecdb8 (Optimisation on code)
->>>>>>> 8b4a867 (Optimisation on code)
 }
 
 .wrapper .qrcode {
@@ -160,15 +82,7 @@ button) {
     pointer-events: none;
     padding: 33px 0;
     align-items: center;
-<<<<<<< HEAD
-    border: 2px solid var(--border);
-=======
-<<<<<<< HEAD
-    border: 2px solid var(--border);
-=======
     border: 2px solid rgba(var(--theme-color), 1);
->>>>>>> 9aecdb8 (Optimisation on code)
->>>>>>> 8b4a867 (Optimisation on code)
     border-radius: 7px;
     justify-content: center;
 }
@@ -183,67 +97,6 @@ button) {
     float: right;
     position: absolute;
     margin: 10px 10px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 8b4a867 (Optimisation on code)
-    top: 1%;
-    right: 2%;
-}
-
-.color-switch .fas {
-    font-size: 50px;
-    color: var(--secondary-color);
-    cursor: pointer;
-}
-
-.color-switch .fas:hover {
-    color: var(--hover);
-    transition: 0.4s;
-}
-
-.color-switch i:hover ul {
-    display: block;
-}
-
-ul {
-    background: var(--backgroundlist);
-    border-radius: 10px 0 10px 0;
-    width: 90px;
-    padding: 10%;
-}
-
-.colors {
-    list-style: none;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    margin: 10% auto;
-    cursor: pointer;
-}
-
-#Red {
-    background: #fb0303;
-}
-
-#Blue {
-    background: #038bfb;
-}
-
-#Green {
-    background: #03fb87;
-}
-
-#Yellow {
-    background: #d2e70f;
-}
-
-#Black {
-    background: #000000;
-<<<<<<< HEAD
-=======
-=======
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -307,6 +160,4 @@ input[value='yellow']:after {
     border-radius: 5px;
     background-color: rgba(var(--theme-color), 1);
     ;
->>>>>>> 9aecdb8 (Optimisation on code)
->>>>>>> 8b4a867 (Optimisation on code)
 }
